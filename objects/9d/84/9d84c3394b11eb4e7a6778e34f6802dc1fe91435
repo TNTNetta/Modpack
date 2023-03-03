@@ -1,0 +1,77 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = carga.jpg
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 152
+  width = 336
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = a640a00b-2993-4999-be59-880d3210ba7e1677835193740
+  y = 126
+  height = 84
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 44a7a6ab-1c93-4979-90c0-a1317a177c191677835193740
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 140
+  width = 360
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 9cf9c083-0cad-4589-a4ad-261092b69a941677835193740
+  y = 294
+  height = 10
+}
+
+customization {
+  path = tnt.png
+  orientation = top-left
+  x = 0
+  width = 310
+  action = addtexture
+  actionid = 13de877a-d604-4c6c-8da7-923d3dc7f2c81677835311921
+  y = 0
+  advanced_posx = 165
+  advanced_posy = 25
+  height = 310
+}
+
